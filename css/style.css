@@ -1,0 +1,122 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgba(0,0,0,0.87);
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    text-align: right;
+    list-style: none;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.navbar li {
+    display: inline;
+    margin: 10px;
+}
+
+.apps-icon {
+    padding: 15px 10px;
+    border-radius: 50%;
+}
+
+.apps-icon:hover {
+    background-color: #f2f2f2;
+}
+
+.apps-icon svg {
+    fill:#5f6368;
+    vertical-align: middle;
+    width: 25px;
+    height: 25px;
+}
+
+.wrapper {
+    height: 90vh;
+    min-height: 400px;
+    display: grid;
+    grid-template-rows: 0.8fr 120px 1fr;
+}
+
+.logo {
+    background: url("../images/google-logo.png") no-repeat center bottom;
+}
+
+.search-form {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.search-form input {
+    width: 80%;
+    max-width: 550px;
+    font-size: 15px;
+    border-radius: 22px;
+    padding: 13px 50px;
+    box-shadow: 0px 1px 6px #bbb;
+    border: none;
+    background: url("../images/search-icon.png") no-repeat;
+    background-position: 4% 50%;
+}
+
+.search-form input:focus {
+    outline: none;
+}
+
+.micro-icon {
+    position: relative;
+    top: 10;
+    left: -40px;
+    display: inline-block;
+    width: 18px;
+    height: 27px;
+    background: url("../images/micro-icon.png") no-repeat;
+}
+
+.most-visited {
+    margin: 0 auto;
+}
+
+.most-visited a:hover {
+    text-decoration: none;
+}
+
+.tile {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tile:hover {
+    background-color: #f2f2f2;
+}
+
+.add {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 45px;
+    height: 45px;
+    font-size: 24px;
+    background-color: #e4e6e7;
+    border-radius: 50%;
+}
